@@ -15,4 +15,4 @@ def dist(ctx):
 	ctx.algo = "zip"
 
 def build(bld):
-	bld.program(source="src/main.cpp", includes="include", target="app")
+	bld.program(source="src/main.cpp", includes="include", target=APPNAME)
